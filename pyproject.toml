@@ -1,0 +1,29 @@
+[project]
+name = "transformer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.5"
+dependencies = [
+    "datasets>=2.19.0",
+    "gensim==4.3.2",
+    "ipykernel>=7.2.0",
+    "langchain-google-genai",
+    "langchain-openai",
+    "mteb",
+    "nltk",
+    "numpy==1.26.4",
+    "pillow>=10.2.0",
+    "python-dotenv>=1.2.2",
+    "pyyaml",
+    "rank-bm25==0.2.2",
+    "scikit-learn==1.4.2",
+    "scipy==1.11.4",
+    "sentence-transformers==2.7.0",
+    "torch>=2.0.0, <2.3.0",
+    "torchvision>=0.15.0, <0.18.0",
+    "transformers>=4.41.0",
+]
+
+[tool.uv]
+required-environments = ["sys_platform == 'darwin' and platform_machine == 'x86_64'"]
